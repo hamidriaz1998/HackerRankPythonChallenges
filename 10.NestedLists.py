@@ -1,11 +1,10 @@
-if __name__ == "__main__":
-    students = [
-        ["Harsh", 20],
-        ["Beria",20],
-        ["varun", 19],
-        ["kakunami",19],
-        ["vikas",21],
-    ]
+# Challenge Link: https://www.hackerrank.com/challenges/nested-list/
+if __name__ == '__main__':
+    students=[]
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        students.append([name,score])
     scores = list(set([students[i][1] for i in range(0,len(students))]))
     scores.sort()
     required_score = scores[1]
@@ -13,14 +12,5 @@ if __name__ == "__main__":
     required_students.sort()
     for i in required_students:
         print(i)
+    
 
-# Harsh
-# 20
-# Beria
-# 20
-# Varun
-# 19
-# Kakunami
-# 19
-# Vikas
-# 21
