@@ -1,7 +1,7 @@
 # Challenge Link: https://www.hackerrank.com/challenges/swap-case/
 
 def swap_case(s):
-    s = [i for i in s]
+    s = list(s)
     s = [i.upper() if i.islower() else i.lower() for i in s]
     s = "".join(s)
     return s
