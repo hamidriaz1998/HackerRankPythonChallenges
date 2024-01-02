@@ -1,4 +1,4 @@
-# Challenge Link: https://www.hackerrank.com/challenges/itertools-product/problem?isFullScreen=true
+# Challenge Link: https://www.hackerrank.com/challenges/itertools-product
 
 from itertools import product
 
